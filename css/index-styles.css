@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://wallpaperaccess.com/full/1843928.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #f4f4f4;
+  font-family: "Permanent Marker", cursive;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  letter-spacing: 0.1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 260px;
+  margin: auto;
+}
+
+li {
+  margin-bottom: 2rem;
+}
+
+i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  color: #111;
+}
+
+a:hover {
+  color: #f4f4f4;
+}
+
+/*************************** Media Queries ****************************/
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
